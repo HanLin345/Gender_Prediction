@@ -2,7 +2,7 @@ click==6.7
 Flask==0.12
 gunicorn==19.6.0
 itsdangerous==0.24
-json==2.0.9
+json
 Jinja2==2.9.5
 MarkupSafe==0.23
 matplotlib==1.0.1
@@ -11,7 +11,7 @@ numpy==1.9.2
 PIL==1.1.7
 pickle
 PyYAML==3.12
-re==2.2.1
+re
 scipy==0.15.1
 virtualenv==15.1.0
 Werkzeug==0.11.15
