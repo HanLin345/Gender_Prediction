@@ -5,10 +5,8 @@ itsdangerous==0.24
 jsonschema==2.4.0
 Jinja2==2.9.5
 MarkupSafe==0.23
-matplotlib==1.0.1
 nltk==2.0.1
-numpy==1.9.2
-PIL==1.1.7
+numpy
 pickleshare==0.5
 PyYAML==3.12
 scipy==0.15.1
