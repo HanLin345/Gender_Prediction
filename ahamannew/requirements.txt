@@ -1,0 +1,7 @@
+Flask==0.12
+Jinja2==2.9.5
+json==2.0.9
+nltk==2.0.1
+pickle
+re==2.2.1
+WtForms==2.1
