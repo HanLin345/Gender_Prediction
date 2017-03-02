@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from wtforms import Form, TextAreaField, validators
+#from wtforms import Form, TextAreaField, validators
 import pickle
 import json
 from nltk.classify import *
@@ -50,13 +50,13 @@ def classify():
 	return count/49.0
 	
 
-class HelloForm(Form):
-	sayhello = TextAreaField('',[validators.DataRequired()])
+#class HelloForm(Form):
+#	sayhello = TextAreaField('',[validators.DataRequired()])
 	
 @app.route('/')
 def index():
-	form = HelloForm(request.form)
-	return render_template('first_app.html',form=form)
+	#form = HelloForm(request.form)
+	return render_template('first_app.html')
 	
 @app.route('/hello')
 def hello():
