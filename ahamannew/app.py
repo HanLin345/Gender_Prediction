@@ -5,13 +5,13 @@ import json
 from nltk.classify import *
 import preprocess_data
 
-stopwords_f = open("./pkl_objects/stopwords.pkl","rb")
+stopwords_f = open("stopwords.pkl","rb")
 stopwords = pickle.load(stopwords_f)
 stopwords_f.close()
-NBClassifier_f = open("./pkl_objects/NBClassifier.pkl","rb")
+NBClassifier_f = open("NBClassifier.pkl","rb")
 NBClassifier = pickle.load(NBClassifier_f)
 NBClassifier_f.close()
-featureList_f = open("./pkl_objects/featureList.pkl","rb")
+featureList_f = open("featureList.pkl","rb")
 featureList = pickle.load(featureList_f)
 featureList_f.close()
 
