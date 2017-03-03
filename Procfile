@@ -1,1 +1,1 @@
-web: gunicorn app:app —-keep-alive 5 --log-level debug
+web: gunicorn --log-file - app:app
