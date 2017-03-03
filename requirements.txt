@@ -24,7 +24,6 @@ psycopg2==2.4.5
 pyOpenSSL==16.2.0
 pyasn1==0.2.2
 pycrypto==2.6.1
-pycups==1.9.66
 pycurl==7.19.3
 pyserial==2.6
 pysmbc==1.0.14.1
