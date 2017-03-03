@@ -33,11 +33,9 @@ pyxdg==0.25
 reportlab==3.0
 requests==2.13.0
 requests-oauthlib==0.7.0
-sessioninstaller==0.0.0
 six==1.10.0
 urllib3==1.7.1
 virtualenv==15.1.0
 wheel==0.24.0
 wsgiref==0.1.2
-zope.interface==4.0.5
 
