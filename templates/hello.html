@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Gender Prediction</title>
+	<link rel="stylesheet" href="{{ url_for('static',
+		filename='style.css') }}">
+	<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;    
+}
+</style>
+</head>
+
+<body>
+<h2>Test Data Information:</h2>
+<table style="width:100%">
+  <tr>
+    <th>Gender</th>
+    <th>Number</th>
+  </tr>
+  <tr>
+    <td>female</td>
+    <td>26</td>
+  </tr>
+  <tr>
+    <td>male</td>
+    <td>22</td>
+  </tr>
+</table>
+<h2>Prediction Information:</h2>
+<table style="width:100%">
+  <tr>
+    <th>Gender</th>
+    <th>Correct Prediction Number</th>
+	<th>Incorrect Prediction Number</th>
+  </tr>
+  <tr>
+    <td>female</td>
+    <td><div>{{ countf }}</div></td>
+	<td><div>{{ countme }}</div></td>
+  </tr>
+  <tr>
+    <td>male</td>
+    <td><div>{{ countm }}</div></td>
+	<td><div>{{ countfe }}</div></td>
+  </tr> 
+</table>
+
+	<h3>Prediction Accuracy:</h3>
+	<div>{{ prediction }}</div>
+
+	
+</body>
+
+</html>
