@@ -11,7 +11,7 @@ certifi==2017.1.23
 click==6.7
 colorama==0.2.5
 gunicorn==19.6.0
-html5lib==0.999
+html5lib==0.99999999
 httplib2==0.8
 itsdangerous==0.24
 lockfile==0.8
